@@ -6,7 +6,8 @@ var router = express.Router();
 var db = require('./db.js');
 
 
-router.get('/get', function(req, res, next) {
+router.get('/get', function(req, res) {
+  console.log('有请求进来了');
   res.json(db.data);
 });
 
