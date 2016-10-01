@@ -12,6 +12,9 @@
     "morgan": "~1.7.0",
     "jquery": "^1.1.1"
   },
+  "scripts":{
+
+  },
   "devDependencies": {
     "jquery": "^1.1.1"
   }

@@ -8,7 +8,7 @@ $(function () {
     var cityObj,countyObj,townObj,villageObj;
     $.ajax({
         "type": "GET",
-        "url": "select.json",
+        "url": "http://127.0.0.1:3000/get",
         "success": function (data) {
             //省份导入
             for (var i = 0; i < data.length; i++) {
